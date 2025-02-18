@@ -1097,4 +1097,3 @@ if __name__ == "__main__":
     os.environ["WANDB_PROJECT"] = "huggingface"
     os.environ["WANDB_NAME"] = "llava-EVA02-CLIP-L-14-336"
     train()
-
