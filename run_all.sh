@@ -1,5 +1,5 @@
 #!/bin/bash
-bash object_stage.sh
+bash scripts/v1_5/object_stage.sh
 # bash scripts/v1_5/pretrain.sh
 # bash scripts/v1_5/finetune15.sh
 bash scripts/v1_5/finetune.sh
