@@ -14,7 +14,7 @@ deepspeed --num_gpus=8 llava/train/train_mem.py \
     --version plain \
     --data_path /blob/weiwei/datasets/Amazon/meta_Gift_Cards_exist_gene_ITdata.json \
     --text_embedding_path /blob/weiwei/text_embedding/meta_amazon_Gift_Cards_exist_gene_ITdata_eos.pt \
-    --image_folder /blob/weiwei/datasets/Amazon/meta_Gift_Cards_pictures \
+    --image_folder /blob/weiwei/datasets/Amazon/ \
     --vision_tower EVA02-CLIP-L-14-336 \
     --eva_ckpt_path $EVA_CKPT \
     --run_name llava-v1.5-7b-$CKPT_DIR-pretrain \
